@@ -29,20 +29,20 @@ const Services = () => {
         </HomeCard>
       </div>
 
-      <div className="md:flex block gap-4">
-        <div className=" mb-0 w-1/2">
-          <HomeCard className="sm:flex-col p-12 pb-0">
+      <div className="flex flex-col md:flex-row gap-4">
+        <div className=" md:mb-0 md:w-1/2">
+          <HomeCard className="flex-col p-12 pb-0">
             <div className="flex flex-col justify-center  ">
-              <div className="mb-2 text-2xl leading-tight  lg:text-[4rem] font-bold ">
+              <div className="mb-2 text-2xl leading-tight  lg:text-[2.5rem] font-bold ">
                 Instantly send & receive Bitcoin
               </div>
               <p className="mb-3 font-normal text-lg text-white_B ">
                 No waiting, no worrying—transact instantly and globally through
                 the Lightning Network.
               </p>
-              <a href="" className="text-gold">
+              <HomeLink path="#" className="text-gold hover:text-gold_light">
                 Learn More
-              </a>
+              </HomeLink>
             </div>
             <div className="flex flex-col items-center">
               <img
@@ -54,10 +54,10 @@ const Services = () => {
           </HomeCard>
         </div>
 
-        <div className=" mb-0 w-1/2">
-          <HomeCard className="sm:flex-col p-12 pb-0">
+        <div className=" mb-0 md:w-1/2">
+          <HomeCard className="flex-col p-12 pb-0">
             <div className="flex flex-col justify-center  ">
-              <div className="mb-2 text-2xl leading-tight  lg:text-[4rem] font-bold ">
+              <div className="mb-2 text-2xl leading-tight  lg:text-[2.5rem] font-bold ">
                 Mine Bitcoin and get daily Bitcoin payouts
               </div>
               <p className="mb-3  font-normal text-lg text-white_B ">
@@ -74,23 +74,29 @@ const Services = () => {
           </HomeCard>
         </div>
       </div>
-
-      <HomeCard>
-        <img
-          className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="/demo_650_500.png"
-          alt=""
-        />
-        <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
-          </h5>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-        </div>
-      </HomeCard>
+      <div>
+        <HomeCard className="md:flex-row flex-col sm:items-center">
+          <div className="p-4 md:w-1/2">
+            <img
+              className="object-cover w-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+              src="/web-app-on-laptop.webp"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-col justify-between p-4 ">
+            <h5 className="mb-2 text-2xl font-bold  lg:text-[2.5rem] leading-normal ">
+              Noteworthy technology acquisitions 2021
+            </h5>
+            <p className="mb-3 font-normal">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <HomeLink path="#" className="text-gold hover:text-gold_light">
+              Learn More
+            </HomeLink>
+          </div>
+        </HomeCard>
+      </div>
     </div>
   );
 };
