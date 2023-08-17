@@ -9,7 +9,7 @@ interface PROPS {
 
 const HomeLink = ({ children,text,className, path }: PROPS) => {
   return(
-  <a className={`flex text-[#c5a063] ${className}`}>
+  <a className={`flex text-gold cursor-pointer ${className}`}>
 <span>{children || text}</span>
 <img
 src="/arrow-right.svg"

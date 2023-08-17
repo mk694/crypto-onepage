@@ -1,6 +1,5 @@
 import Button from "@/components/button/Button";
 import HomeCard from "@/components/cards/HomeCard";
-import HomeLink from "@/components/link/HomeLink";
 
 const Reviews = () => {
   return (

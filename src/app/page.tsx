@@ -11,7 +11,7 @@ import Navbar from "@/components/sections/navbar/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" bg-primary_background bg-main text-white_A">
       <Navbar/>
       <Hero />
       <Partners />
