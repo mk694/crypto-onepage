@@ -25,7 +25,7 @@ const Features = () => {
               100% full reserve custody
             </div>
             <div>
-              All assets on River are held 1:1. We don't use or lend your
+              All assets on River are held 1:1. We don&apos;t use or lend your
               Bitcoin, ever. Your Bitcoin is your Bitcoin.
             </div>
           </div>
@@ -39,7 +39,7 @@ const Features = () => {
               100% full reserve custody
             </div>
             <div>
-              All assets on River are held 1:1. We don't use or lend your
+              All assets on River are held 1:1. We don&apos;t use or lend your
               Bitcoin, ever. Your Bitcoin is your Bitcoin.
             </div>
           </div>
@@ -55,7 +55,7 @@ const Features = () => {
               100% full reserve custody
             </div>
             <div>
-              All assets on River are held 1:1. We don't use or lend your
+              All assets on River are held 1:1. We don&apos;t use or lend your
               Bitcoin, ever. Your Bitcoin is your Bitcoin.
             </div>
           </div>
